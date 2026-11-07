@@ -1,0 +1,9 @@
+{
+  "name": "obs-ci-lab",
+  "version": "1.0.0",
+  "description": "Small student grade module for the OBS project",
+  "scripts": {
+    "build": "node --check src/student.js",
+    "test": "node --test"
+  }
+}
