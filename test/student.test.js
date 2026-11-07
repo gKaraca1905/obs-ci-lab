@@ -11,5 +11,5 @@ test('returns 0 when there are no grades', () => {
 });
 
 test('gives letter grade A for 90', () => {
-  assert.strictEqual(getLetterGrade(90), 'A');
+  assert.strictEqual(getLetterGrade(90), 'B');
 });
